@@ -8,7 +8,7 @@ public class CSVFileParserTest extends TestCase {
     @Test
     public void testReadFile(){
         CSVFileParser csv = new CSVFileParser();
-        csv.readFile("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Inputs/input_file.csv");
+        csv.readFile("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/input_file-1.csv");
         assertEquals(null, null);
     }
 
@@ -22,7 +22,7 @@ public class CSVFileParserTest extends TestCase {
     @Test
     public void testOutputFile(){
             CSVFileParser csv = new CSVFileParser();
-            csv.writeOutputFile("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Outputs/output_file.csv");
+            csv.writeOutputFile("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/output_file-1.csv");
     }
 
 

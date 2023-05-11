@@ -10,7 +10,7 @@ public class XMLFileParserTest extends TestCase {
     @Test
     public void testReadFile(){
         XMLFileParser xml = new XMLFileParser();
-        xml.readFile("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Inputs/input_file.xml");
+        xml.readFile("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/input_file.xml");
         assertEquals(null, null);
     }
 
@@ -24,6 +24,6 @@ public class XMLFileParserTest extends TestCase {
     @Test
     public void testOutputFile(){
         XMLFileParser xml = new XMLFileParser();
-        xml.writeOutputFile("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Outputs/output_file.xml");
+        xml.writeOutputFile("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/output_file.xml");
     }
 }

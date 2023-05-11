@@ -10,7 +10,7 @@ public class JSONFileParserTest extends TestCase {
     @Test
     public void testReadFile(){
         JSONFileParser json = new JSONFileParser();
-        json.readFile("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Inputs/input_file.json");
+        json.readFile("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/input_file.json");
         assertEquals(null, null);
     }
 
@@ -24,6 +24,6 @@ public class JSONFileParserTest extends TestCase {
     @Test
     public void testOutputFile(){
         JSONFileParser json = new JSONFileParser();
-        json.writeOutputFile("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Outputs/output_file.xml");
+        json.writeOutputFile("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/output_file.json");
     }
 }

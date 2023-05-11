@@ -12,7 +12,7 @@ public class FileParserContextTest extends TestCase {
     public void testExecuteFileParserTestJson() {
 
         FileParserContext fpc = new FileParserContext();
-        fpc.executeFileParser("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Inputs/input_file.json", "/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Outputs/output_file.json");
+        fpc.executeFileParser("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/input_file.json", "/Users/surendrabodapati/Documents/Files/TestCases/Inputs/output_file.json");
 
 //        assertEquals(null, null);
     }
@@ -23,7 +23,7 @@ public class FileParserContextTest extends TestCase {
     public void testExecuteFileParserTestCSV() {
 
         FileParserContext fpc = new FileParserContext();
-        fpc.executeFileParser("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Inputs/input_file.csv", "/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Outputs/output_file.csv");
+        fpc.executeFileParser("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/input_file-1.csv", "/Users/surendrabodapati/Documents/Files/TestCases/Inputs/output_file-1.csv");
 
         assertEquals(null, null);
     }
@@ -32,7 +32,7 @@ public class FileParserContextTest extends TestCase {
     public void testExecuteFileParserTestXML() {
 
         FileParserContext fpc = new FileParserContext();
-        fpc.executeFileParser("/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Inputs/input_file.xml", "/Users/anuraggajam/Desktop/202/Project/CreditCard-202/Files/TestCases/Outputs/output_file.xml");
+        fpc.executeFileParser("/Users/surendrabodapati/Documents/Files/TestCases/Inputs/input_file.xml", "/Users/surendrabodapati/Documents/Files/TestCases/Inputs/output_file.xml");
 
         assertEquals(null, null);
     }
