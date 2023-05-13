@@ -60,12 +60,13 @@ The factory approach prevents client code from instantiating actual implementati
 
 #### Design - Class Diagrams
 
-Strategy Design Pattern
+### Strategy Design Pattern
 ![Stratergy](https://user-images.githubusercontent.com/89657709/205791397-b69f1fb6-dd6e-4812-9276-5e6bcc73f89f.png)
 
 Factory Design Pattern
  ![Factory](https://user-images.githubusercontent.com/89657709/205791412-9103cd3b-1887-4239-a97a-7a848b97bd97.png)
 
 
-## Junits Test Cases:
-<img width="1396" alt="Screenshot 2022-12-05 at 7 48 25 PM" src="https://user-images.githubusercontent.com/89657709/205808455-f16a50cc-0de9-44fb-8fc0-069f8e33716c.png">
+### Junits Test Cases:
+![Screenshot 2023-05-13 at 1 52 14 AM](https://github.com/surendrabodapati/individual-project-cmpe202-02-Bodapati-main/assets/52579540/8d485bf2-cfd8-446b-b71d-ea3a7d849a20)
+
